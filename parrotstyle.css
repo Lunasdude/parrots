@@ -1,0 +1,104 @@
+h2,h3{
+	text-align: center;
+	padding: 40px;
+	font-family: 'Bree Serif', serif;
+	margin: auto;
+}
+header{
+	display: flex;
+}
+h5, .card-link{
+	color: green;
+}
+footer{
+	height: 50px;
+	background-color: black;
+}
+hr{
+	border-color: black;
+	border-width: 2px;
+}
+
+.container{
+	padding: 0;
+}
+.links{
+	display:flex;
+	list-style: none;
+	justify-content: center;
+}
+.links li{
+	padding: 10px;
+}
+.fa-bars{
+	font-size: 3em;
+}
+.menu{
+	align-items: center;
+}
+.heroImage{
+	max-height: 400px;
+	overflow: hidden;
+}
+.heroImage img{
+	width: 100%;
+}
+
+.image img{
+	object-fit: cover;
+	object-position: center center;
+	overflow: hidden;
+	width: 100%;
+}
+.middleContent{
+	justify-content: center;
+}
+.gallery{
+	justify-content: space-around;
+}
+
+.galleryImage{
+	height: 130px;
+	width: 130px;
+	overflow: hidden;
+	justify-content: center;
+	margin: 0 auto 20px auto;
+}
+.galleryImage img{
+	object-fit: cover;
+	object-position: center center;
+	overflow: hidden;
+	height: 130px;
+}
+.aside{
+	
+	padding-left: 10px;
+	border-left: 2px solid black;
+}
+.card{
+	width: 18rem;
+}
+
+.logo{
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	color: black;
+}
+
+@media (min-width: 992px) {
+	.logo{
+		justify-content: center;
+	}
+	.image{
+		overflow: hidden;
+		max-height:320px;
+	}
+}
+
+@media (min-width:1200px) {
+	.image{
+		max-height:280px;
+	}
+}
